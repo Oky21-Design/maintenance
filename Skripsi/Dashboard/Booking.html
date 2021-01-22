@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="../CSS/neon.css">
+  <script src="../js/navbar-ontop.js"></script>
+  <script src="../js/animate-in.js"></script>
+</head>
+
+<body style="">
+  <div class="align-items-center d-flex py-5 cover section-fade-in-out" style="background-image: url(&quot;../assets/restaurant/bg_home.png&quot;); background-position: right top; background-size: cover; background-repeat: repeat;" id="Home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 p-3 mx-auto" style="">
+          <div class="col-md-12 text-left" style="">
+            <h1 class="text-center"><b>System Booking</b></h1>
+            <div class="form-group"><label><b></b></label>
+              <div class="form-group"><label><b></b></label>
+                <div class="form-group"><label><b></b></label>
+                  <div class="form-group"><label><b><b>Plate Number</b> <b></b></b></label><input class="form-control form-control-sm mb-2" placeholder="Input Plate Number" type="text" required="required" name="PlateNumber">
+                    <div class="form-group"><label><b><b>motorcycle</b> <b>Type</b></b></label>
+                      <div class="form-group">
+                        <select name="sellist2" class="form-control form-control-sm">
+                          <option value="Sportbike">Sportbike</option>
+                          <option value="AutomaticScooter">Automatic Scooter</option>
+                          <option value="Moped">Moped</option>
+                          <option value="NakedBike">NakedBike</option>
+                        </select>
+                      </div>
+                      <div class="form-group"><b><b>Detail Trouble</b></b><textarea class="form-control form-control-sm" type="text" required="required"></textarea></div>
+                      <div class="form-group"><label><b></b></label>
+                        <p class="text-warning text-right">* for complaints on the motor and replacement of spare parts can be informed in Reason</p>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-6 col-6"><a href="#" class="btn btn-primary btn-sm my-2">Booking Now!</a></div>
+                        <div class="col-md-6 col-6">
+                          <div class="col-md-12 px-4 mb-4 col-6 px-lg-5 text-right">
+                            <a data-toggle="modal" data-target=".yellow" href="">
+                              <h3 class="pt-3 text-right"><b>&nbsp;</b><span class="badge badge-pill badge-info">&nbsp;Lihat Antrian</span></h3>
+                            </a></div><a data-toggle="modal" data-target=".yellow" href="">
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top navbar-ontop">
+    <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar3SupportedContent" aria-controls="navbar3SupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse text-center justify-content-center" id="navbar3SupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="Dashboard.html"><b>Dashboard</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="Booking.html"><b>Booking</b></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="#contactus"><b>Contact Us</b></a>
+          </li>
+        </ul>
+        <a class="btn navbar-btn btn-secondary mx-2 shadowed" href="../index.html"><b>Logout</b></a>
+      </div>
+    </div>
+  </nav>
+  <div class="section-overlapping py-0 bg-dark">
+    <div class="container">
+      <div class="row">
+        <div class="p-3 col-md-3 col-6" style=""> <img class="img-fluid d-block" src="../assets/restaurant/92930.png"> </div>
+        <div class="p-3 col-md-4 col-6" style=""> <img class="img-fluid d-block" src="../assets/restaurant/92930.png"> </div>
+        <div class="col-md-5 p-3 pt-5" style="">
+          <h3 class="pt-5"><b>System&nbsp;</b><span class="badge badge-light"> booking</span></h3>
+          <p  class="break">Of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade yellow" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header" id="alert" style="">
+          <h5 class="modal-title text-danger"><b>Antiran</b></h5> <button type="button" class="close" data-dismiss="modal"> <span>×</span> </button>
+        </div>
+        <div class="modal-body" style="">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <p class="text-danger">Antrian Anda</p>
+              <h3 class="mx-auto text-center"><span class="badge badge-info">New</span></h3>
+            </div>
+            <div class="col-md-4 text-center">
+              <p class="text-danger"><b>IIn Proses</b></p>
+              <h3 class="mx-auto text-center"><span class="badge badge-info">New</span></h3>
+            </div>
+            <div class="col-md-4 mx-auto text-center">
+              <p class="text-danger"><b>Total Antrian</b></p>
+              <h3 class="text-center"><span class="badge badge-danger">New</span></h3>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer"> <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+</body>
+
+</html>
